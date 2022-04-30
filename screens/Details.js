@@ -6,9 +6,22 @@ import { CircleButton, RectButton, SubInfo, FocusedStatusBar, DetailsDesc, Detai
 const DetailsHeader = ({ data, navigation }) => (
   <View style={{ width: '100%', height: 373 }} >
     <Image 
-      source={data.Image}
+      source={data.image}
       resizeMode="cover"
       style={{ width: '100%', height: '100%' }}
+    />
+
+    <CircleButton 
+    imgUrl={assets.left}
+    handlePress={ () => navigation.goBack() }
+    left= {15}
+    top={StatusBar.currentHeight +10 }
+    />
+
+    <CircleButton 
+    imgUrl={assets.heart}
+    right= {15}
+    top={StatusBar.currentHeight +10 }
     />
   </View>
 )
@@ -25,9 +38,10 @@ const DetailsScreen = ({route, navigation}) => {
       />
       <View style={{
         width: '100%',
-        //position: 'absolute',
+        position: 'absolute',
         bottom: 0,
         paddingVertical: SIZES.font,
+        alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: 'rgba(255,255,255,0.5)',
         zIndex: 1,

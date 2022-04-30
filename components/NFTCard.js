@@ -58,7 +58,7 @@ const NFTCard = ({ data }) => {
           </View>
       </View>
     </View>
-  )
-}
+  );
+};
 
 export default NFTCard;
