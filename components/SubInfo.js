@@ -24,8 +24,9 @@ export const ETHPrice = ({price}) => {
         fontFamily: FONTS.medium,
         fontSize: SIZES.font,
         color: COLORS.primary,
-
-      }}>{price}</Text>
+      }}>
+        {price}
+      </Text>
     </View>
   )
 }
