@@ -20,7 +20,7 @@ const NFTCard = ({ data }) => {
       <View 
       style={{ 
         width: "100%", 
-        height:250 
+        height: 250 
       }}>
         <Image 
           source={data.image}

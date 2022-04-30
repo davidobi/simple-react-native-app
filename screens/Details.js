@@ -13,7 +13,7 @@ const DetailsHeader = ({ data, navigation }) => (
   </View>
 )
 
-const Details = ({route, navigation}) => {
+const DetailsScreen = ({route, navigation}) => {
   const { data } = route.params;
 
   return (
@@ -53,4 +53,4 @@ const Details = ({route, navigation}) => {
   );
 }
 
-export default Details;
+export default DetailsScreen;

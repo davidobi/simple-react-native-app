@@ -3,7 +3,7 @@ import { View, SafeAreaView, FlatList, Text } from 'react-native';
 import { COLORS, NFTData } from '../constants';
 import { FocusedStatusBar, HomeHeader, NFTCard } from '../components';
 
-const Home = () => {
+const HomeScreen = () => {
   return (
    <SafeAreaView style={{flex: 1 }}>
      <FocusedStatusBar background={COLORS.primary} />
@@ -35,4 +35,4 @@ const Home = () => {
   );
 }
 
-export default Home;
+export default HomeScreen;
