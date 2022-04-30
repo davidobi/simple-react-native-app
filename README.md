@@ -11,14 +11,14 @@
 - Tailwind CSS
 
 ## Live Demo (if available)
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/22225878/166107412-ae3a84f4-f488-4508-bf29-ecd41c188468.gif)
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/22225878/166107412-ae3a84f4-f488-4508-bf29-ecd41c188468.gif)
 
 [Live Demo Link](#)
 
 ## Getting Started
 
-**This is a simple project built to gain prove my react native skills.**
+**This is a simple project with react native.**
 **The designs was inspired by [Alvian Teddy] (https://dribbble.com/alvxyz).**
 
 **To learn about FlatList [Visit this link] (https://reactnative.dev/docs/flatlist).**
