@@ -1,9 +1,24 @@
-import React from 'react';
-import { Text } from 'react-native';
+import React, {useState} from 'react';
+import { View, SafeAreaView, FlatList, Text } from 'react-native';
+import { COLORS, NFTData } from '../constants';
+import { FocusedStatusBar, HomeHeader, Homeheader, NFTCard } from './components';
 
 const Home = () => {
   return (
-   <Text>Home</Text> 
+   <SafeAreaView style={{flex: 1 }}>
+     <FocusedStatusBar background={COLORS.primary} />
+     <View style={{flex: 1}}>
+      <View style={{zIndex: 0}}>
+        <FlatList
+          data={NFTData}
+          renderItem ={({item}) => <Text>{item.name}</Text>}
+          keyExtractor={(item) => item.id}
+          showsVerticalScrollIndicator={false}
+          ListHeaderComponent={<HomeHeader />}
+          />
+      </View>
+     </View>
+   </SafeAreaView>
   );
 }
 

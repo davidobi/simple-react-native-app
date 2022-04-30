@@ -19,6 +19,8 @@
 **This is a simple project built to gain prove my react native skills.**
 **The designs was inspired by [Alvian Teddy] (https://dribbble.com/alvxyz).**
 
+**To learn about FlatList [Visit this link] (https://reactnative.dev/docs/flatlist).**
+
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
